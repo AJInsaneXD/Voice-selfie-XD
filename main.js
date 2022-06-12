@@ -33,7 +33,7 @@ Webcam.set({
     width:360,
     height:260,
     image_format:"png",
-    png_quality:1000
+    png_quality:90
 });
 camera= document.getElementById("camera");
 function take_snapshot(){
