@@ -30,10 +30,10 @@ function speak(){
     },5000);
 }
 Webcam.set({
-    width:360,
-    height:250,
+    width:1024,
+    height:768,
     image_format:"png",
-    png_quality:90
+    png_quality:100
 });
 camera= document.getElementById("camera");
 function take_snapshot(){
